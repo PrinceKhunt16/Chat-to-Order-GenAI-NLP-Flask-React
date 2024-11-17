@@ -1,0 +1,34 @@
+{
+  "os":  "macOS-14.6.1-arm64-arm-64bit",
+  "python":  "3.12.7",
+  "startedAt":  "2024-11-16T12:40:39.668378Z",
+  "program":  "/Users/princekhunt/Documents/Portfolio/Food-Order-with-Chatbot/backend/intentclassification/practicle.ipynb",
+  "email":  "princekhunt01ds@gmail.com",
+  "root":  "/Users/princekhunt/Documents/Portfolio/Food-Order-with-Chatbot/backend/intentclassification",
+  "host":  "Princes-MacBook-Air.local",
+  "username":  "princekhunt",
+  "executable":  "/Users/princekhunt/Documents/Portfolio/Food-Order-with-Chatbot/.venv/bin/python",
+  "codePathLocal":  "practicle.ipynb",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "148233207808"
+    }
+  },
+  "memory":  {
+    "total":  "8589934592"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  },
+  "apple":  {
+    "name":  "Apple M1",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  7,
+    "memoryGb":  8
+  }
+}

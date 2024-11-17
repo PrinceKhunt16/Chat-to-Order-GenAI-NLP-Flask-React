@@ -1,0 +1,18 @@
+100%|██████████| 1690/1690 [04:52<00:00,  5.77it/s]
+100%|██████████| 38/38 [00:00<00:00, 45.64it/s]
+{'eval_loss': 0.0014862684765830636, 'eval_accuracy': 1.0, 'eval_f1': 1.0, 'eval_runtime': 1.0262, 'eval_samples_per_second': 146.168, 'eval_steps_per_second': 37.029, 'epoch': 1.0}
+{'loss': 0.1291, 'grad_norm': 0.020361805334687233, 'learning_rate': 1.5562130177514792e-05, 'epoch': 1.11}
+{'eval_loss': 0.0004930521245114505, 'eval_accuracy': 1.0, 'eval_f1': 1.0, 'eval_runtime': 0.9227, 'eval_samples_per_second': 162.575, 'eval_steps_per_second': 41.186, 'epoch': 2.0}
+{'loss': 0.001, 'grad_norm': 0.008941566571593285, 'learning_rate': 1.1124260355029586e-05, 'epoch': 2.22}
+{'eval_loss': 0.00027996409335173666, 'eval_accuracy': 1.0, 'eval_f1': 1.0, 'eval_runtime': 0.9072, 'eval_samples_per_second': 165.336, 'eval_steps_per_second': 41.885, 'epoch': 3.0}
+{'loss': 0.0005, 'grad_norm': 0.005733402445912361, 'learning_rate': 6.686390532544379e-06, 'epoch': 3.33}
+{'eval_loss': 0.0002050378971034661, 'eval_accuracy': 1.0, 'eval_f1': 1.0, 'eval_runtime': 0.9085, 'eval_samples_per_second': 165.114, 'eval_steps_per_second': 41.829, 'epoch': 4.0}
+{'loss': 0.0003, 'grad_norm': 0.005249729845672846, 'learning_rate': 2.2485207100591717e-06, 'epoch': 4.44}
+{'eval_loss': 0.0001838045136537403, 'eval_accuracy': 1.0, 'eval_f1': 1.0, 'eval_runtime': 1.101, 'eval_samples_per_second': 136.236, 'eval_steps_per_second': 34.513, 'epoch': 5.0}
+{'train_runtime': 296.2057, 'train_samples_per_second': 22.788, 'train_steps_per_second': 5.705, 'train_loss': 0.02907811644867327, 'epoch': 5.0}
+SequenceClassifierOutput(loss=None, logits=tensor([[-3.1041,  6.1368, -3.0118]]), hidden_states=None, attentions=None) tensor([[-3.1041,  6.1368, -3.0118]]) tensor([1])
+['Create Order']
+SequenceClassifierOutput(loss=None, logits=tensor([[-2.8477, -2.8316,  6.3252]]), hidden_states=None, attentions=None) tensor([[-2.8477, -2.8316,  6.3252]]) tensor([2])
+['Remove Order']
+SequenceClassifierOutput(loss=None, logits=tensor([[ 6.4380, -2.8716, -3.0920]]), hidden_states=None, attentions=None) tensor([[ 6.4380, -2.8716, -3.0920]]) tensor([0])
+['No Intent']

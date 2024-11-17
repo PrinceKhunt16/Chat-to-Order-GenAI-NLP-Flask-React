@@ -1,0 +1,16 @@
+flask
+flask_pymongo
+flask_cors
+langchain
+langchain-text-splitters
+langchain-chroma
+langchain-community
+langchain_huggingface
+python-dotenv
+langchain-groq
+langchain-ollama
+pandas
+spacy
+transformers
+matplotlib
+wandb

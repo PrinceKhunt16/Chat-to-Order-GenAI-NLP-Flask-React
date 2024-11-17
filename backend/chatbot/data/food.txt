@@ -1,0 +1,37 @@
+Here are the names of the food items of our restaurant:
+Pepperoni Pizza ($12.99)
+Description: A classic Italian pizza topped with tomato sauce, mozzarella cheese, and generous slices of pepperoni.
+Ingredients: Tomato sauce, mozzarella cheese, pepperoni, olive oil, basil.
+Classic Burger ($8.49)
+Description: Juicy Potato patty served with fresh lettuce, tomato, onions, and pickles in a soft bun.
+Ingredients: Potato patty, lettuce, tomato, onion, pickles, burger bun, cheese (optional).
+Dosa ($5.99)
+Description: A thin, crispy South Indian crepe made from rice and lentils, served with coconut chutney and sambar.
+Ingredients: Rice, urad dal (black gram), fenugreek, oil.
+Pav Bhaji ($6.49)
+Description: A spicy and flavorful mashed vegetable curry served with buttered bread rolls. A popular Indian street food.
+Ingredients: Mixed vegetables, tomatoes, onions, butter, spices, pav bread.
+Vada Pav ($3.99)
+Description: A spicy potato fritter sandwiched in a bread roll with chutneys. Known as the Indian burger.
+Ingredients: Potatoes, green chilies, garlic, gram flour, pav bread, chutney.
+Veg Momos ($4.99)
+Description: Steamed dumplings filled with mixed vegetables, served with spicy dipping sauce.
+Ingredients: Flour (for wrapper), cabbage, carrots, onions, spices.
+Vegetable Samosa ($2.49)
+Description: Crispy fried pastry filled with a spiced mixture of potatoes and peas.
+Ingredients: Potatoes, peas, flour, cumin, coriander, spices.
+Manchurian ($7.99)
+Description: Crispy vegetable balls tossed in a savory and spicy Indo-Chinese sauce.
+Ingredients: Cabbage, carrots, bell pepper, soy sauce, garlic, flour.
+Ice Cream ($3.49)
+Description: Creamy and rich ice cream available in various flavors like vanilla, chocolate, and strawberry.
+Ingredients: Milk, cream, sugar, flavoring.
+Mojito ($4.99)
+Description: A refreshing mint and lime cocktail (non-alcoholic) perfect for cooling down.
+Ingredients: Mint leaves, lime, sugar, soda water.
+French Fries ($2.99)
+Description: Crispy, golden fries, lightly salted and perfect for snacking.
+Ingredients: Potatoes, oil, salt.
+Ham Sandwich ($5.49)
+Description: Sliced ham served with lettuce, tomato, and cheese in a sandwich.
+Ingredients: Ham, lettuce, tomato, cheese, sandwich bread, mayonnaise.

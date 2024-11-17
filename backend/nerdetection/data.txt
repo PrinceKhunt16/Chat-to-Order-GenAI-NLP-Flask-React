@@ -1,0 +1,177 @@
+"I’d like to order a pizza.",Create Order
+"Can I get a burger and fries, please?",Create Order
+"I want to place an order for pasta.",Create Order
+"Order two cheeseburgers.",Create Order
+"Cancel my last order.",Remove Order
+"I need to remove my order.",Remove Order
+"Can you delete my order?",Remove Order
+"I want to cancel the pizza I ordered.",Remove Order
+"What time do you close?",No Intent
+"Where is your restaurant located?",No Intent
+"Do you have vegan options?",No Intent
+"Tell me about today’s special.",No Intent
+"hi",No Intent
+"Hello! 👋 Welcome to our food ordering service. Would you like to see our full menu? You can view it on our website. What can I get for you today?",No Intent
+"Okay two Pepperoni Pizzas and one Classic Burger. Please type "confirm order" when you are ready to finalize your order.",Create Order
+"confirm order",Create Order
+"Okay, here's a summary of your order: 2 x Pepperoni Pizza ($12.99 each) = $25.98 1 x Classic Burger ($8.49) = $8.49 Total cost: $34.47 Thank you for your order! 🍕🍔 Is there anything else I can help you with today?",Create Order
+"no",No Intent
+"You're welcome! Enjoy your meal. 😊",No Intent
+"please remove my order",Remove Order
+"No problem! Your order #1 has been cancelled. Is there anything else I can help you with today?",Remove Order
+"I'd like to place an order for tacos.","Create Order"
+"Can you add a pizza to my order?","Create Order"
+"Cancel my entire order, please.","Remove Order"
+"I need to remove the last item I ordered.","Remove Order"
+"What's on the menu today?",No Intent
+"Do you offer gluten-free options?",No Intent
+"I’d like to purchase a veggie burger.","Create Order"
+"Please order a side of nachos as well.","Create Order"
+"I’d like to cancel my recent order.","Remove Order"
+"Can you delete the pasta from my order?","Remove Order"
+"Are there any discounts today?",No Intent
+"How long will it take for delivery?",No Intent
+"I need to order pasta with extra cheese.","Create Order"
+"Take the burger off my order.","Remove Order"
+"Do you have a loyalty program?",No Intent
+"Place an order for two pepperoni pizzas.","Create Order"
+"Can you help me order a large cola?","Create Order"
+"Take off the fries from my order.","Remove Order"
+"Do you have a kids' menu?",No Intent
+"I don’t want the salad anymore, please cancel it.","Remove Order"
+"I’d like to cancel everything I ordered.","Remove Order"
+"Forget the dessert, I want to cancel it.","Remove Order"
+"Can I see a list of beverages?",No Intent
+"Add one large fries to my cart, please.","Create Order"
+"Can you tell me about the chef's specials?",No Intent
+"Is outside seating available?",No Intent
+"I’d like to add a medium-sized soda to my order.","Create Order"
+"Can I get a chocolate milkshake?","Create Order"
+"Please take off the coffee from my order.","Remove Order"
+"I’d like to get a coffee and a donut.","Create Order"
+"Where is your restaurant located?",No Intent
+"Can you cancel the milkshake from my order?","Remove Order"
+"I need help with my order, it's not about adding or removing.",No Intent
+"Can you recommend something on the menu?",No Intent
+"Let’s add a vanilla ice cream to my order.","Create Order"
+"Cancel my last request for a drink.","Remove Order"
+"Yo, cancel my drink.","Remove Order"
+"Um, can you remove the burger?","Remove Order"
+"I wanna order a pizza.","Create Order"
+"Please add a large coffee to my order.","Create Order"
+"Do you have any vegan desserts?",No Intent
+"Can you delete the extra order I added?","Remove Order"
+"Remove the soda from my order.","Remove Order"
+"Is there a kids' menu?",No Intent
+"I want to get a sandwich and a smoothie.","Create Order"
+"I'd like to confirm an order for a Pepperoni Pizza.","Create Order"
+"Could you go ahead and place an order for the Classic Burger?","Create Order"
+"I’d love to order a Dosa, please add it to my cart.","Create Order"
+"Can you confirm an order for Pav Bhaji?","Create Order"
+"I want to get a Vada Pav added to my order.","Create Order"
+"Add Veg Momos to my order, thanks.","Create Order"
+"Please include Vegetable Samosas in my order.","Create Order"
+"Confirm an order for Manchurian for me.","Create Order"
+"Can you add Ice Cream to my order?","Create Order"
+"I’d like to confirm an order for a Mojito.","Create Order"
+"Please include French Fries in my order.","Create Order"
+"I’d like to place an order for a Ham Sandwich.","Create Order"
+"Can you cancel the order for Pepperoni Pizza?","Remove Order"
+"Please go ahead and remove the Classic Burger from my order.","Remove Order"
+"I’d like to cancel my Dosa order, please.","Remove Order"
+"Take Pav Bhaji off my order, thanks.","Remove Order"
+"Please cancel the Vada Pav from my order.","Remove Order"
+"I want to remove Veg Momos from my order.","Remove Order"
+"Cancel the Vegetable Samosa I added earlier.","Remove Order"
+"Take out Manchurian from my order, thanks.","Remove Order"
+"Please cancel the Ice Cream I ordered.","Remove Order"
+"I don't want the Mojito anymore; please remove it.","Remove Order"
+"Remove French Fries from my order, please.","Remove Order"
+"Can you take the Ham Sandwich off my list?","Remove Order"
+"What's the price for a Classic Burger?","No Intent"
+"Is the Dosa gluten-free?","No Intent"
+"Can you tell me more about Pav Bhaji?","No Intent"
+"How spicy are the Veg Momos?","No Intent"
+"Do the Vegetable Samosas have potatoes?","No Intent"
+"What's the cost of Manchurian?","No Intent"
+"Do you have more flavors of Ice Cream?","No Intent"
+"Is the Mojito available in other flavors?","No Intent"
+"Are the French Fries made with olive oil?","No Intent"
+"Can I get a Ham Sandwich without mayo?","No Intent"
+"What's on the Pepperoni Pizza?","No Intent"
+"How many calories does the Classic Burger have?","No Intent"
+"Is the Dosa spicy?","No Intent"
+"Is there a combo offer with Pav Bhaji?","No Intent"
+"Do you have Manchurian in a vegetarian option?","No Intent"
+"Any sugar-free Ice Cream?","No Intent"
+"Can I get a Mojito with less sugar?","No Intent"
+"Do you offer unsalted French Fries?","No Intent"
+"Is there cheese on the Ham Sandwich?","No Intent"
+"I’d like to confirm an order for the grilled tuna and cheese on rye.","Create Order"
+"Could you go ahead and add a Coke to my order?","Create Order"
+"I’ll take the lasagna, could you confirm that for me?","Create Order"
+"Please place an order for spaghetti for me.","Create Order"
+"Add a Classic Burger and confirm that to my order, please.","Create Order"
+"I want to confirm an order for chicken marsala.","Create Order"
+"I'll go with the fish and I'd like to place an order for that.","Create Order"
+"Can I confirm my order for the lasagna and a beer?","Create Order"
+"Add calamari as an appetizer for my order and confirm it, please.","Create Order"
+"I’d like to confirm my order for the vegetable samosas.","Create Order"
+"Could you please add French Fries to my order and confirm?","Create Order"
+"Please confirm an order for Manchurian and a glass of water.","Create Order"
+"Can you cancel the lasagna I ordered?","Remove Order"
+"Please go ahead and remove the grilled fish from my order.","Remove Order"
+"I need to cancel my order for the calamari appetizer.","Remove Order"
+"Please take the pepperoni pizza off my order.","Remove Order"
+"I want to cancel my Classic Burger order.","Remove Order"
+"Please cancel the French Fries from my order.","Remove Order"
+"Take out the beer from my order, thanks.","Remove Order"
+"Can you remove the spaghetti from my order?","Remove Order"
+"Remove the Manchurian from my order, please.","Remove Order"
+"Cancel the salad I added earlier to my order.","Remove Order"
+"Could you cancel the Coke I ordered?","Remove Order"
+"Please cancel my order for the Vada Pav.","Remove Order"
+"Hi, can I get a menu, please?","No Intent"
+"What’s today’s special?","No Intent"
+"How’s the lasagna here?","No Intent"
+"Could you tell me where the restroom is?","No Intent"
+"Can I get some water, please?","No Intent"
+"Does the lasagna contain any nuts?","No Intent"
+"Is the chicken marsala spicy?","No Intent"
+"How fresh is the fish today?","No Intent"
+"What appetizers do you have?","No Intent"
+"Do you have any vegetarian options?","No Intent"
+"Can I have my steak medium rare?","No Intent"
+"What drinks do you have available?","No Intent"
+"How’s the calamari?","No Intent"
+"Could I get the check, please?","No Intent"
+"Is the pasta gluten-free?","No Intent"
+"What do you recommend, the fish or the chicken?","No Intent"
+"Could I have a refill on my water?","No Intent"
+"Can I have the lasagna without cheese?","No Intent"
+"Do you have any cocktails on the menu?","No Intent"
+"How big is the serving of spaghetti?","No Intent"
+"Are there any discounts on the pizza today?","No Intent"
+"Could I have a small portion of the salad?","No Intent"
+"Is there anything on special this evening?","No Intent"
+"Can I get a side of fries with that?","No Intent"
+"What's the best thing on the menu?","No Intent"
+"Are there any gluten-free options available?","No Intent"
+"Is there a kids' menu available?","No Intent"
+"I'd like to order the vegetable stir-fry with rice, please.",Create Order
+"I'm ready to order. I'll have the grilled salmon with a side salad, no croutons, please.",Create Order
+"I'll take the chicken alfredo pasta, please.",Create Order
+"Could you place an order for the steak, medium rare, with mashed potatoes?",Create Order
+"I'll have the special of the day, please.",Create Order
+"Could you confirm an order for two lasagnas?",Create Order
+"Could you please cancel the vegetable stir-fry from my order?",Remove Order
+"Sorry, but I'd like to remove the steak from my order.",Remove Order
+"Can you remove the lasagna from my order, please?",Remove Order
+"Hi, do you have any vegetarian options on the menu?",No Intent
+"Could you tell me if this dish is gluten-free?",No Intent
+"Do you have any recommendations for keto-friendly meals?",No Intent
+"I'd like a glass of water with lemon, please.",No Intent
+"Could I have the bill, please?",No Intent
+"Could we split the check between two people?",No Intent
+"Is there a private room we can reserve for a special occasion?",No Intent
+"Could you let me know if there are any specials today?",No Intent

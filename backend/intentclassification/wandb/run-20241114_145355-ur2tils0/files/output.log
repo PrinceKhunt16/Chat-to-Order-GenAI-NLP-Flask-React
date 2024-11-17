@@ -1,0 +1,33 @@
+
+{'eval_loss': 0.8134700655937195, 'eval_accuracy': 0.8181818181818182, 'eval_f1': 0.7386363636363636, 'eval_runtime': 0.4195, 'eval_samples_per_second': 26.223, 'eval_steps_per_second': 7.152, 'epoch': 1.0}
+{'loss': 1.0385, 'grad_norm': 5.452831745147705, 'learning_rate': 1.5680000000000002e-05, 'epoch': 1.08}
+{'eval_loss': 0.42592668533325195, 'eval_accuracy': 1.0, 'eval_f1': 1.0, 'eval_runtime': 0.2808, 'eval_samples_per_second': 39.172, 'eval_steps_per_second': 10.683, 'epoch': 2.0}
+{'loss': 0.7278, 'grad_norm': 3.4676930904388428, 'learning_rate': 1.136e-05, 'epoch': 2.16}
+{'eval_loss': 0.19816693663597107, 'eval_accuracy': 1.0, 'eval_f1': 1.0, 'eval_runtime': 0.3069, 'eval_samples_per_second': 35.841, 'eval_steps_per_second': 9.775, 'epoch': 3.0}
+{'loss': 0.3411, 'grad_norm': 1.7362828254699707, 'learning_rate': 7.04e-06, 'epoch': 3.24}
+{'eval_loss': 0.10167830437421799, 'eval_accuracy': 1.0, 'eval_f1': 1.0, 'eval_runtime': 0.1933, 'eval_samples_per_second': 56.907, 'eval_steps_per_second': 15.52, 'epoch': 4.0}
+{'loss': 0.1699, 'grad_norm': 1.326627254486084, 'learning_rate': 2.7200000000000002e-06, 'epoch': 4.32}
+{'eval_loss': 0.08160337805747986, 'eval_accuracy': 1.0, 'eval_f1': 1.0, 'eval_runtime': 0.1163, 'eval_samples_per_second': 94.594, 'eval_steps_per_second': 25.798, 'epoch': 5.0}
+{'train_runtime': 51.909, 'train_samples_per_second': 9.343, 'train_steps_per_second': 2.408, 'train_loss': 0.507653136253357, 'epoch': 5.0}
+wandb: Network error (ConnectTimeout), entering retry loop.
+[34m[1mwandb[39m[22m: Network error resolved after 0:24:00.289687, resuming normal operation.
+['Create Order']
+['Remove Order']
+['No Intent']
+['Create Order']
+['Create Order']
+SequenceClassifierOutput(loss=None, logits=tensor([[-1.0134,  2.2148, -1.2538]]), hidden_states=None, attentions=None) tensor([[-1.0134,  2.2148, -1.2538]]) tensor([1])
+['Create Order']
+SequenceClassifierOutput(loss=None, logits=tensor([[-1.3185, -1.1090,  2.3882]]), hidden_states=None, attentions=None) tensor([[-1.3185, -1.1090,  2.3882]]) tensor([2])
+['Remove Order']
+SequenceClassifierOutput(loss=None, logits=tensor([[-1.4702,  1.9499, -0.6715]]), hidden_states=None, attentions=None) tensor([[-1.4702,  1.9499, -0.6715]]) tensor([1])
+['Create Order']
+SequenceClassifierOutput(loss=None, logits=tensor([[-1.3355,  1.4024, -0.3270]]), hidden_states=None, attentions=None) tensor([[-1.3355,  1.4024, -0.3270]]) tensor([1])
+['Create Order']
+SequenceClassifierOutput(loss=None, logits=tensor([[-1.3355,  1.4024, -0.3270]]), hidden_states=None, attentions=None) tensor([[-1.3355,  1.4024, -0.3270]]) tensor([1])
+['Create Order']
+SequenceClassifierOutput(loss=None, logits=tensor([[-1.3355,  1.4024, -0.3270]]), hidden_states=None, attentions=None) tensor([[-1.3355,  1.4024, -0.3270]]) tensor([1])
+['Create Order']
+SequenceClassifierOutput(loss=None, logits=tensor([[-0.9894,  1.7080, -0.9402]]), hidden_states=None, attentions=None) tensor([[-0.9894,  1.7080, -0.9402]]) tensor([1])
+['Create Order']
+SequenceClassifierOutput(loss=None, logits=tensor([[ 1.7134, -0.8744, -0.9650]]), hidden_states=None, attentions=None) tensor([[ 1.7134, -0.8744, -0.9650]]) tensor([0])

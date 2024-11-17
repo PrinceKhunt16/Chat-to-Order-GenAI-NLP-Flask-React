@@ -1,0 +1,42 @@
+{
+    "os": "macOS-14.6.1-arm64-arm-64bit",
+    "python": "3.12.4",
+    "heartbeatAt": "2024-11-14T09:23:56.838592",
+    "startedAt": "2024-11-14T09:23:55.378079",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "Princes-MacBook-Air.local",
+    "username": "princekhunt",
+    "executable": "/usr/local/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3204,
+        "min": 600,
+        "max": 3204
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3204,
+            "min": 600,
+            "max": 3204
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 9.561805725097656
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}
