@@ -294,7 +294,7 @@ const Chatbot = () => {
                     <div className="flex items-center mt-4">
                         <input
                             type="text"
-                            placeholder="Message to ChatFood"
+                            placeholder="Message to Order"
                             value={userMessage}
                             onChange={(e) => setUserMessage(e.target.value)}
                             className="flex-1 p-2 rounded-l-3xl focus:outline-none bg-white border-none focus:ring-0"
