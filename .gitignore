@@ -5,4 +5,4 @@ backend/intentclassification/local_model
 backend/nerdetection/fine_tuned_NER_food_model
 backend/nerdetection/food.csv
 backend/nerdetection/npr.csv
-.env
+.env.local
