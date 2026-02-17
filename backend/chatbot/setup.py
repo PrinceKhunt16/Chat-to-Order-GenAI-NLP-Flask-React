@@ -16,8 +16,9 @@ session_store = {}
 
 def initialize_langchain():
     documents = []
-    data_folder = Path("backend/chatbot/data")
-    vectors_directory = Path("./chorma")
+    project_root = Path(__file__).resolve().parents[2]
+    data_folder = Path(__file__).resolve().parent / "data"
+    vectors_directory = project_root / "chorma"
     embedding = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
     for filename in os.listdir(data_folder):
@@ -32,7 +33,7 @@ def initialize_langchain():
     vectors = Chroma.from_documents(documents=splits, embedding=embedding, persist_directory=str(vectors_directory))
 
     retriever = vectors.as_retriever(kwargs=3)
-    llm = ChatGroq(model_name="Gemma2-9b-It")
+    llm = ChatGroq(model_name="llama-3.1-8b-instant")
         
     contextualize_s_prompt = ("Imagine you are a skilled conversation partner. Given the ongoing chat history and the most recent user question, your task is to craft a clear, standalone question that can be understood without needing any prior context. Please do not provide an answer; simply reformulate the question if necessary, or return it as is, ensuring it remains concise and relevant.")
     

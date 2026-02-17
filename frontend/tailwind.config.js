@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        lato: ['Lato'],
+        prozalibre: ['Proza Libre'],
       },
     },
   },

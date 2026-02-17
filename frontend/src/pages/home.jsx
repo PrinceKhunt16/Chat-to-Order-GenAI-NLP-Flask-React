@@ -4,7 +4,7 @@ const Home = () => {
   const [foodItems, setFoodItems] = useState([])
 
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("http://127.0.0.1:5000/products")
       .then((response) => response.json())
       .then((data) => setFoodItems(data))
       .catch((error) => console.error("Error:", error))
@@ -22,7 +22,7 @@ const Home = () => {
             />
             <div className="p-4">
               <h2 className="text-lg font-semibold">{item.name}</h2>
-              <p className="text-gray-600">$ {item.price.toFixed(2)}</p>
+              <p className="text-gray-600 font-bold">$ {item.price.toFixed(2)}</p>
             </div>
           </div>
         ))}

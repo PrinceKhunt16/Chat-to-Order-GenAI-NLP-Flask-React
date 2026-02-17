@@ -1,9 +1,17 @@
+@font-face {
+    font-family: 'Adobe Clean';
+    src: url('../public/fonts/AdobeClean.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Adobe Clean', 'Proza Libre', sans-serif;
     margin: 0;
     padding: 0;
 }

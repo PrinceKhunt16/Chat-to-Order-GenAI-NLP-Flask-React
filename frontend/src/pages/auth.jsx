@@ -3,9 +3,9 @@ import { useNavigate } from 'react-router-dom';
 
 const Auth = () => {
     const [authrCheck, setAuthrCheck] = useState(false);
-    const [name, setName] = useState('');
-    const [mailid, setMailid] = useState('');
-    const [password, setPassword] = useState(''); 
+    const [name, setName] = useState('Jigar Panchiya');
+    const [mailid, setMailid] = useState('jigs@gmail.com');
+    const [password, setPassword] = useState('jigs@gmail.com'); 
     const navigate = useNavigate();
 
     const handleAuth = async (e) => {

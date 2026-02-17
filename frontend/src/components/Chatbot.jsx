@@ -22,7 +22,7 @@ const getDefaultMessage = () => {
 const Chatbot = () => {
     const [isChatOpen, setIsChatOpen] = useState(false)
     const [messages, setMessages] = useState([
-        { ...getDefaultMessage(), id: Date.now(), sender: 'bot', text: "Hello! How can I assist you today?", is_chat: true },
+        { ...getDefaultMessage(), id: Date.now(), sender: 'bot', text: "Hello! What do you want to order today? 🍕", is_chat: true },
     ]);
     const [userMessage, setUserMessage] = useState("")
     const [loading, setLoading] = useState(false)
@@ -47,7 +47,7 @@ const Chatbot = () => {
         }
 
         try {
-            const response = await fetch('/confirm-order', {
+            const response = await fetch('http://127.0.0.1:5000/confirm-order', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -76,7 +76,7 @@ const Chatbot = () => {
             ...getDefaultMessage(),
             id: Date.now(),
             sender: 'user',
-            text: "I have clicked on confirm order button.",
+            text: "Confirm Order",
             is_chat: true,
         };
 
@@ -85,7 +85,7 @@ const Chatbot = () => {
         setLoading(true);
 
         try {
-            const response = await fetch('http://localhost:5000/chatbot', {
+            const response = await fetch('http://127.0.0.1:5000/chatbot', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -143,7 +143,7 @@ const Chatbot = () => {
             setLoading(true);
 
             try {
-                const response = await fetch('http://localhost:5000/chatbot', {
+                const response = await fetch('http://127.0.0.1:5000/chatbot', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -233,22 +233,22 @@ const Chatbot = () => {
                 <HiOutlineChatBubbleLeftEllipsis color='#ffffff' fontSize={24} />
             </button>
             {isChatOpen && (
-                <div className="fixed bottom-20 right-4 w-96 h-[500px] bg-blue-100 shadow-lg flex flex-col p-4 rounded-2xl">
+                <div className="fixed bottom-20 right-4 w-96 h-[500px] bg-blue-100 shadow-lg flex flex-col p-4 rounded-3xl">
                     <div className="flex-1 overflow-y-auto hide-scrollbar">
                         {messages.map((msg, index) => (
                             <div key={index} className={`mt-2 first:mt-0 max-w-[80%] ${msg.sender === 'user' ? 'ml-auto' : 'mr-auto'}`}>
                                 {msg.is_chat && (
                                     <ReactMarkdown
                                         rehypePlugins={[rehypeRaw]}
-                                        className={`p-2 rounded-lg inline-block ${msg.sender === 'user' ? 'bg-blue-200 w-fit flex justify-end ml-auto' : 'bg-white'}`}
+                                        className={`p-2 px-3 rounded-2xl inline-block ${msg.sender === 'user' ? 'bg-blue-200 w-fit flex justify-end ml-auto' : 'bg-white'}`}
                                         children={msg.text}
                                     />
                                 )}
                                 {msg.is_order_card && (
-                                    <div className="p-2 bg-white rounded-lg">
+                                    <div className="p-2 px-3 bg-white rounded-2xl">
                                         <ReactMarkdown
                                             rehypePlugins={[rehypeRaw]}
-                                            className={`rounded-lg inline-block ${msg.sender === 'user' ? 'bg-blue-200 w-fit flex justify-end ml-auto' : 'bg-white'}`}
+                                            className={`rounded-2xl inline-block ${msg.sender === 'user' ? 'bg-blue-200 w-fit flex justify-end ml-auto' : 'bg-white'}`}
                                             children={msg.text}
                                         />
                                         <h4 className="font-semibold pb-1 border-b border-b-black">Order Summary</h4>
@@ -271,8 +271,8 @@ const Chatbot = () => {
                                     <div className="flex flex-col space-y-2 mt-2">
                                         <ReactMarkdown
                                             rehypePlugins={[rehypeRaw]}
-                                            className={`p-2 rounded-lg inline-block ${msg.sender === 'user' ? 'bg-blue-200 w-fit flex justify-end ml-auto' : 'bg-white'}`}
-                                            children={msg.text}
+                                            className={`p-2 px-3 rounded-2xl inline-block ${msg.sender === 'user' ? 'bg-blue-200 w-fit flex justify-end ml-auto' : 'bg-white'}`}
+                                            children={msg.text} 
                                         />
                                         {msg.buttons && msg.buttons.map((button, idx) => (
                                             <button
@@ -297,7 +297,7 @@ const Chatbot = () => {
                             placeholder="Message to Order"
                             value={userMessage}
                             onChange={(e) => setUserMessage(e.target.value)}
-                            className="flex-1 p-2 rounded-l-3xl focus:outline-none bg-white border-none focus:ring-0"
+                            className="flex-1 p-2 pl-4 rounded-l-3xl focus:outline-none bg-white border-none focus:ring-0"
                         />
                         <button
                             onClick={handleSendMessage}
