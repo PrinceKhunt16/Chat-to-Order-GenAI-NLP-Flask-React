@@ -8,7 +8,7 @@ from langchain_core.chat_history import BaseChatMessageHistory
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.runnables.history import RunnableWithMessageHistory
-from langchain.schema import Document
+from langchain_core.documents import Document
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 
@@ -56,7 +56,7 @@ def initialize_langchain():
 
                 When an order is created, let the user know that confirmation is required for it to be confirmed.
 
-                When an order is confirmed, acknowledge that it has been successfully noted in the database and provide a wrap-up message to the user.
+                When an order is confirmed, acknowledge that it has been successfully noted in the database and provide a wrap-up message to the user. Make sure you will get message like "I have confirmed the order, bye." after confirmation, after that give small conversation wrapping message.
 
                 ## Key Instructions
 

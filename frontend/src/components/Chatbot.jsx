@@ -47,7 +47,7 @@ const Chatbot = () => {
         }
 
         try {
-            const response = await fetch('http://127.0.0.1:5000/confirm-order', {
+            const response = await fetch('http://127.0.0.1:5001/confirm-order', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -70,13 +70,13 @@ const Chatbot = () => {
         } catch (error) {
             console.error('Error:', error);
             return;
-        } 
+        }
 
         const userMessageObject = {
             ...getDefaultMessage(),
             id: Date.now(),
             sender: 'user',
-            text: "Confirm Order",
+            text: "Confirmed",
             is_chat: true,
         };
 
@@ -85,12 +85,12 @@ const Chatbot = () => {
         setLoading(true);
 
         try {
-            const response = await fetch('http://127.0.0.1:5000/chatbot', {
+            const response = await fetch('http://127.0.0.1:5001/chatbot', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ user_input: "I have ordered.", session_id: user._id, id: Date.now() }),
+                body: JSON.stringify({ user_input: "I have confirmed the order, bye.", session_id: user._id, id: Date.now() }),
             });
 
             const data = await response.json();
@@ -143,7 +143,7 @@ const Chatbot = () => {
             setLoading(true);
 
             try {
-                const response = await fetch('http://127.0.0.1:5000/chatbot', {
+                const response = await fetch('http://127.0.0.1:5001/chatbot', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -272,7 +272,7 @@ const Chatbot = () => {
                                         <ReactMarkdown
                                             rehypePlugins={[rehypeRaw]}
                                             className={`p-2 px-3 rounded-2xl inline-block ${msg.sender === 'user' ? 'bg-blue-200 w-fit flex justify-end ml-auto' : 'bg-white'}`}
-                                            children={msg.text} 
+                                            children={msg.text}
                                         />
                                         {msg.buttons && msg.buttons.map((button, idx) => (
                                             <button

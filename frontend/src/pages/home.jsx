@@ -4,7 +4,7 @@ const Home = () => {
   const [foodItems, setFoodItems] = useState([])
 
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/products")
+    fetch("http://127.0.0.1:5001/products")
       .then((response) => response.json())
       .then((data) => setFoodItems(data))
       .catch((error) => console.error("Error:", error))

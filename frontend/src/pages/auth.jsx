@@ -5,13 +5,13 @@ const Auth = () => {
     const [authrCheck, setAuthrCheck] = useState(false);
     const [name, setName] = useState('Jigar Panchiya');
     const [mailid, setMailid] = useState('jigs@gmail.com');
-    const [password, setPassword] = useState('jigs@gmail.com'); 
+    const [password, setPassword] = useState('jigs@gmail.com');
     const navigate = useNavigate();
 
     const handleAuth = async (e) => {
         e.preventDefault();
 
-        const url = authrCheck ? 'http://127.0.0.1:5000/register' : 'http://127.0.0.1:5000/login';
+        const url = authrCheck ? 'http://127.0.0.1:5001/register' : 'http://127.0.0.1:5001/login';
 
         const data = {
             mailid,
